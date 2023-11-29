@@ -1,0 +1,292 @@
+h1 {
+    color : lightblue
+}
+body{
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;   
+}
+
+font{
+    color : rgb(80, 80, 210)
+}
+
+.lien{ 
+    color : white;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/15\ Link\ select.cur"), default; 
+    font-family: 'future', Arial, Helvetica;  
+     
+}
+
+p{
+    color: white;
+    margin: 50px;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;  
+    font-family: 'cyber', Arial, Helvetica;  
+}
+
+h1{
+    font-family:'future', Helvetica, sans-serif;
+    color: white;
+}
+h2{
+    color: white;
+}
+ul{
+    color: white;
+}
+body{
+    background : url("800px-autopx-scale-to-width-down-5dee9.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.demo-border{
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    box-shadow: 6px 6px 35px  blue;
+    padding: 17%;
+    background-image: url("800px-autopx-scale-to-width-down-5dee9.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+img:hover{
+    opacity: 1;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration-color: blue;
+}
+
+/*
+a:focus{
+    background-color : blue;
+}
+*/
+.banner{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60px;
+}
+
+.conteneur {
+    display : flex;
+    flex-direction: row;
+    justify-content : space-around; 
+}
+
+.title-border{
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    box-shadow: 6px 6px 35px  blue;
+    padding: 10px;
+    background-image: url("800px-autopx-scale-to-width-down-5dee9.jpg");
+    background-position: 0px 500px;
+    background-size: cover;
+    text-align: center;
+}
+.nav-border{
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.conteneur2 {
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 20px
+}
+.border{
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    box-shadow: 6px 6px 35px  blue;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+
+@font-face {
+	font-family:"spider-man";
+	src: url("police_ecriture_woff/The Amazing Spider-Man.woff2") format("woff2"),
+		url("police_ecriture_woff/the-amazing-spider-man.woff") format("woff");
+}
+@font-face {
+	font-family:"future";
+	src: url("police_ecriture_woff/sujun/Sujun-Oblique.woff") format("woff"),
+        url("police_ecriture_woff/sujun/Sujun-Oblique.woff2") format("woff2");
+}
+@font-face {
+	font-family:"Cyber";
+	src: url("police_ecriture_woff/cyber_freight/CYBERFREIGHT-Normal.woff") format("woff"),
+        url("police_ecriture_woff/cyber_freight/CYBERFREIGHT-Normal.woff2") format("woff2");
+}
+video{
+    height: 20%;
+    width: 30%;
+}
+
+
+table{
+    border-collapse: collapse ;
+}
+form{
+    display: flex;
+}
+input{
+    padding:1px;
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    box-shadow: 6px 6px 35px  blue;
+}
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black; /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blue; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid black; /* creates padding around scroll thumb */
+  }
+  .curseurtext{
+
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/06\ Text\ select.cur"), default; 
+  }
+  .barre-son{
+    color: white;
+    margin: 50px;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;  
+    font-family: 'cyber', Arial, Helvetica;
+    display: flex;
+    position: fixed;
+    left: 30%;
+    top:70%;
+  }
+
+  .barre-audio{
+    color: white;
+    margin: 50px;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;  
+    font-family: 'cyber', Arial, Helvetica;
+    display: flex;
+    position: fixed;
+    left: 10%;
+    top:70%;
+  }
+  .bouton{
+    color: white;
+    margin: 50px;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;  
+    font-family: 'cyber', Arial, Helvetica;
+    display: flex;
+    position: fixed;
+    left: 0%;
+    top:70%;
+  }
+  .boutoncontrolright{
+    color: white;
+    margin: 50px;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;  
+    font-family: 'cyber', Arial, Helvetica;
+    display: flex;
+    position:absolute;
+    left: 55%;
+    top:12%;
+  }
+  .boutoncontrolleft{
+    color: white;
+    margin: 50px;
+    cursor: url("curseur/curseurs-de-souris-waeon-sf/01\ Normal\ select.cur"), default;  
+    font-family: 'cyber', Arial, Helvetica;
+    display: flex;
+    position:absolute;
+    left: 35%;
+    top:12%;
+  }
+
+
+:required{
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    box-shadow: 6px 6px 35px  blue;
+    padding: 10px;
+    background-color: black;
+    background-position: 0px 500px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'future', Arial, Helvetica;  
+}
+@media screen and (max-width: 900px) {
+    .conteneur{
+        flex-direction: column;
+    }
+    .demo-border{
+        
+            width: auto;
+            height: 120px;
+            text-align: justify;
+            overflow: auto;
+        
+    }
+}
+
+#pause-buttom , #stop-buttom {
+    display:none;
+}
+.mainmenubtn {
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    position: fixed;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: fixed;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+    border-width: 2px ;
+    border-color:white;
+    border-style: solid;
+    box-shadow: 6px 6px 35px  blue;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+  
