@@ -162,10 +162,9 @@ volume.addEventListener("input",function(){
 });
 
 function buildDuration(duration){
-    let heure = Math.floor(duration/3600)
-    let minutes = Math.floor(duration % 60);    
+    let minutes = Math.floor(duration / 60);    
     let reste = duration % 60;
     let secondes = Math.floor(reste);
     secondes = String(secondes).padStart(2, "0");
-    return heure + ":" + minutes + ":" + secondes;
+    return minutes + ":" + secondes;
 };
